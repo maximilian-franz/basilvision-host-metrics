@@ -1,0 +1,16 @@
+[Unit]
+Description=Push Raspberry Pi metrics to Grafana
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+Group=root
+ExecStart=/opt/host-metrics/push_metrics.sh
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/host-metrics

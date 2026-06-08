@@ -1,0 +1,11 @@
+[Unit]
+Description=Run host metric push every 5 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+Persistent=true
+Unit=basilvision-push-metrics.service
+
+[Install]
+WantedBy=timers.target
