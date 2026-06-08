@@ -9,7 +9,7 @@ SERVICE_FILE="$APP_DIR/basilvision-push-metrics.service"
 TIMER_FILE="$APP_DIR/basilvision-push-metrics.timer"
 SERVICE_LINK="$SYSTEMD_DIR/basilvision-push-metrics.service"
 TIMER_LINK="$SYSTEMD_DIR/basilvision-push-metrics.timer"
-REPO_URL="https://github.com/maximilian-franz/host-metrics"
+REPO_URL="https://github.com/maximilian-franz/basilvision-host-metrics"
 REPO_BRANCH="main"
 
 UNINSTALL_MODE=0
