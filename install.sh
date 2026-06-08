@@ -208,10 +208,10 @@ install_env_file() {
   echo "[4/6] Writing environment file..."
 
   cat >"$ENV_FILE" <<EOF
-API_URL=${API_URL}
-API_KEY=${API_KEY}
-NAME=${NAME}
-DEVICE_UUID=${DEVICE_UUID}
+API_URL="${API_URL}"
+API_KEY="${API_KEY}"
+NAME="${NAME}"
+DEVICE_UUID="${DEVICE_UUID}"
 EOF
 
   chmod 640 "$ENV_FILE"
