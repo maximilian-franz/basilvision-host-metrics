@@ -35,7 +35,7 @@ Run the installer interactively as root. It is designed for interactive mode and
 
 Example:
 
-	curl -fsSL https://raw.githubusercontent.com/maximilian-franz/host-metrics/main/install.sh | sudo bash
+	curl -fsSL https://raw.githubusercontent.com/maximilian-franz/basilvision-host-metrics/main/install.sh | sudo bash
 
 What the installer does:
 
@@ -102,7 +102,7 @@ Use the installer in uninstall mode:
 
 If you do not have a local copy of the installer, you can uninstall directly from GitHub:
 
-	curl -fsSL https://raw.githubusercontent.com/maximilian-franz/host-metrics/main/install.sh | sudo bash -s -- --uninstall
+	curl -fsSL https://raw.githubusercontent.com/maximilian-franz/basilvision-host-metrics/main/install.sh | sudo bash -s -- --uninstall
 
 Skip the confirmation prompt:
 
@@ -110,7 +110,7 @@ Skip the confirmation prompt:
 
 From GitHub (no confirmation prompt):
 
-	curl -fsSL https://raw.githubusercontent.com/maximilian-franz/host-metrics/main/install.sh | sudo bash -s -- --uninstall --yes
+	curl -fsSL https://raw.githubusercontent.com/maximilian-franz/basilvision-host-metrics/main/install.sh | sudo bash -s -- --uninstall --yes
 
 What uninstall does:
 
